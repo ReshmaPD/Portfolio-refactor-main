@@ -405,7 +405,10 @@
       <div class="contact-container">
         <div class="form">
           <h2>Contact Form</h2>
-          <form action="#" method="POST" class="contact-form" data-netlify="true">
+          <form action="#" method="POST" class="contact-form" data-netlify="true" data-netlify-recaptcha="true" netlify-honeypot="bot-field">
+            <p class="hidden">
+    <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
+  </p>
             <input
               type="text"
               name="name"
@@ -446,17 +449,17 @@
         <h3>Ray D</h3>
         <ul>
           <li>
-            <a href="https://github.com/ReshmaPD"><i class="fab fa-github"></i></a>
+            <a href="https://github.com/ReshmaPD" target="_blank"><i class="fab fa-github"></i></a>
           </li>
           <li>
-            <a href="https://gitlab.com/ReshmaPD"><i class="fab fa-gitlab"></i></a>
+            <a href="https://gitlab.com/ReshmaPD" target="_blank"><i class="fab fa-gitlab"></i></a>
           </li>
           <!-- <li>
             <a href="#"><i class="fab fa-github-square"></i></a>
           </li> -->
 
           <li>
-            <a href="https://www.linkedin.com/in/reshma-d-237623a4/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/reshma-d-237623a4/" target="_blank"><i class="fab fa-linkedin"></i></a>
           </li>
         </ul>
       </div>
