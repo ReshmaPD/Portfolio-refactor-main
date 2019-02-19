@@ -23,6 +23,9 @@ li {
   color: #333;
 }
 
+.hidden{
+   visibility:hidden;
+}
 a {
   color: rgb(247, 245, 243);
   text-decoration: none;
