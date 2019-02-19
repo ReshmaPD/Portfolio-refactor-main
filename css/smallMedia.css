@@ -1,0 +1,145 @@
+@media screen and (max-width: 700px) {
+  .container {
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows:
+      60px 500px minmax(450px, 1fr) 90px repeat(13, minmax(450px, 1fr))
+      140px;
+    grid-gap: 3px;
+    grid-template-areas:
+      "header"
+      "cover1"
+      "main"
+      "side"
+      "projects"
+      "image5"
+      "imgdes5"
+      "image6"
+      "imgdes6"
+      "image1"
+      "imgdes1"
+      "image2"
+      "imgdes2"
+      "image3"
+      "imgdes3"
+      "image4"
+      "imgdes4"
+      "contact"
+      "footer";
+  }
+  /*
+  .header {
+    grid-area: header;
+    background-color: blueviolet;
+  }
+
+  .main-cover {
+    grid-area: cover1;
+    background-color: rgb(113, 137, 240);
+  }
+
+  .main {
+    grid-area: main;
+    background-color: rgb(55, 129, 172);
+  }
+
+  .sidebar {
+    grid-area: side;
+    background-color: rgb(128, 203, 247);
+  }
+
+  .image-showcase-1 {
+    grid-area: image1;
+    background-color: #ff8d8d;
+  }
+
+  .image-showcase-2 {
+    grid-area: image2;
+    background: #40666f;
+  }
+
+  .image-showcase-3 {
+    grid-area: image3;
+    background-color: #17366c;
+  }
+
+  .image-showcase-4 {
+    grid-area: image4;
+    background-color: #145947;
+  }
+  .contact-wrapper {
+    grid-area: contact;
+    background-color: #686e80;
+  }
+  .footer {
+    background-color: #313e51;
+    grid-area: footer;
+  } */
+
+  .logo {
+    height: 36px;
+    margin-bottom: 0;
+  }
+
+  nav ul li {
+    list-style: none;
+    align-items: center;
+    font-size: 16px;
+    padding-left: 12px;
+  }
+
+  .hero-hi {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5em;
+    padding: 0;
+  }
+
+  .about-container {
+    padding: 2%;
+  }
+
+  .about-container ul {
+    padding-right: 40%;
+    padding-left: 5%;
+  }
+
+  h2 {
+    margin: 0 0 20px 0;
+  }
+
+  .footer1 ul {
+    padding-left: 33px;
+  }
+
+  .footer1 ul li {
+    padding-left: 30px;
+    font-size: 24px;
+  }
+  /* added today */
+  .git-icon {
+    font-size: 2.5em;
+    color: rgb(17, 29, 37);
+  }
+  .contact-wrapper {
+    padding: 0;
+  }
+  .contact-container {
+    padding-left: 6%;
+  }
+  .contact-form {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+  }
+  .form h2 {
+    margin-bottom: 5px;
+    padding-left: 4%;
+  }
+  .form input,
+  .form textarea {
+    padding: 2px;
+  }
+}
