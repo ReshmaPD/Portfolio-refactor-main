@@ -36,10 +36,13 @@ a {
 
 a:hover,
 a:focus {
-  color: #3397db;
   text-decoration: none;
   -webkit-transition: 50ms;
   transition: 50ms;
+}
+
+a:hover {
+  color: #3397db;
 }
 
 a img {
