@@ -232,12 +232,25 @@
   h2 {
     margin: 0 0 20px 0;
   }
+
   .form h2 {
     padding-left: 15%;
   }
-  input[type="submit"] {
-    margin-left: 17%;
+  
+ input[type="submit"] {
+    margin-left: 22%;
   }
+
+  .contact-container {
+    padding-left: 18%;
+  }
+
+  .form input[type="text"],
+  .form input[type="email"],
+  .form textarea {
+    width: 75%;
+  }
+
   .footer1 ul {
     padding-left: 33px;
   }
