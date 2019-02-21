@@ -269,6 +269,12 @@ input[type="submit"]:hover {
   text-decoration: none;
 }
 
+.udacity-logo {
+  width: 31px;
+  height: 31px;
+  margin-top: 5px;
+}
+
 .copyright {
   text-align: center;
   padding: 15px 20px 0 20px;
